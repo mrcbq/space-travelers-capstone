@@ -1,4 +1,4 @@
-<h1>Bookstore - Microverse</h1>
+<h1>space-travelers-capstone - Microverse</h1>
 
 <a name="readme-top"></a>
 
@@ -7,7 +7,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Bookstore](#-BookStore)
+- [📖 space-travelers-capstone](#-space-travelers-capstone)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,9 +29,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Bookstore<a name="about-project"></a>
+# 📖 space-travelers-capstone<a name="about-project"></a>
 
-The Bookstore is a website similar to the "Awesome Books" website. I create an simplified version of it that allows you to: Display a list of books Add a book Remove a selected book By building this application, I learn how to use React and Redux in the context of a real application..
+The space-travelers-capstone is an Web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -64,7 +64,7 @@ The Bookstore is a website similar to the "Awesome Books" website. I create an s
 
 ### Key Features <a name="key-features"></a>
 
-- **Bookstore  using React**
+- **space-travelers-capstone  using React**
 - **Client-side routing using React Router V6**
 - **Gitflow is used correctly**
 - **Work is documented in a professional manner**
@@ -74,7 +74,7 @@ The Bookstore is a website similar to the "Awesome Books" website. I create an s
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can see the live demo of this project [here](https://mrcbq.github.io/bookstore/)
+> You can see the live demo of this project [here](https://mrcbq.github.io/space-travelers-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,7 +95,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/mrcbq/bookstore.git
+  git clone https://github.com/mrcbq/space-travelers-capstone.git
 ```
 
 ### Install
@@ -103,7 +103,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd bookstore
+  cd space-travelers-capstone
   npm install
 ```
 
@@ -141,6 +141,12 @@ To run tests, run the following command:
 - GitHub: [@mrcbq](https://github.com/mrcbq)
 - Twitter: [@mrcbq](https://twitter.com/mrcbq)
 - LinkedIn: [mrcbq](https://www.linkedin.com/in/mrcbq/)
+
+👤 Therese Tuyisabe
+
+- GitHub: [@theresetuyi](https://github.com/theresetuyi)
+- Twitter: [@theresetuyi](https://twitter.com/theresetuyi)
+- LinkedIn: [theresetuyi](https://www.linkedin.com/in/theresetuyi/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
