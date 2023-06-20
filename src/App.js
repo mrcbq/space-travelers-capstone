@@ -1,9 +1,11 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
-import Rockets from './components/Rockets';
-import Missions from './components/Missions';
+// import Rockets from './components/Rockets';
+// import Missions from './components/Missions';
 import MyProfile from './components/MyProfile';
+import MissionsList from './routes/Missions';
+import RocketsList from './routes/Rockets';
 
 function App() {
   return (
@@ -12,10 +14,10 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Rockets />}
+          element={<RocketsList />}
           basename="/https://mrcbq.github.io/space-travelers-capstone/"
         />
-        <Route path="/missions" element={<Missions />} />
+        <Route path="/missions" element={<MissionsList />} />
         <Route path="/profile" element={<MyProfile />} />
       </Routes>
     </HashRouter>
