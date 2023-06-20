@@ -1,19 +1,15 @@
-import {
-  HashRouter,
-  // Routes,
-  // Route
-} from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 
 import NavBar from './components/NavBar';
-// import Rockets from './components/Rockets';
-// import Missions from './components/Missions';
-// import MyProfile from './components/MyProfile';
+import Rockets from './components/Rockets';
+import Missions from './components/Missions';
+import MyProfile from './components/MyProfile';
 
 function App() {
   return (
     <HashRouter>
       <NavBar />
-      {/* <Routes>
+      <Routes>
         <Route
           path="/"
           element={<Rockets />}
@@ -21,7 +17,7 @@ function App() {
         />
         <Route path="/missions" element={<Missions />} />
         <Route path="/profile" element={<MyProfile />} />
-      </Routes> */}
+      </Routes>
     </HashRouter>
   );
 }

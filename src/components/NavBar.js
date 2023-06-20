@@ -33,7 +33,7 @@ export default function NavBar() {
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? 'active a' : 'a')}
-            to="/MyProfile"
+            to="/profile"
           >
             My Profile
           </NavLink>
