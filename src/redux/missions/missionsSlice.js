@@ -10,13 +10,13 @@ export const getMissions = createAsyncThunk(
       const response = await axios.get(API_URL);
       return response.data;
     } catch (error) {
-      return error.message;
+      throw new Error(error.message);
     }
   },
 );
 
 const initialState = {
-  missionsArr: [],
+  missions: [],
   status: 'idle',
   error: null,
 };
@@ -26,22 +26,12 @@ const missionsSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: (builder) => {
+    builder.addCase(getMissions.pending, (state) => {
+      state.status = 'pending';
+    });
     builder.addCase(getMissions.fulfilled, (state, action) => {
       state.status = 'fulfilled';
-      const missions = [];
-      action.payload.forEach((mission) => {
-        const newMission = {
-          id: mission.mission_id,
-          name: mission.mission_name,
-          description: mission.description,
-          activeMember: false,
-        };
-        missions.push(newMission);
-      });
-      state.missionsArr = missions;
-    });
-    builder.addCase(getMissions.pending, (state) => {
-      state.status = 'Loading';
+      state.missions = action.payload;
     });
     builder.addCase(getMissions.rejected, (state, action) => {
       state.status = 'rejected';
