@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-// import MyProfile from './MyProfile';
 import { getMissions } from '../redux/missions/missionsSlice';
+import './ProfileList.css';
 // import { fetchRockets } from '../redux/Rocket/RocketSlice';
 
 function ProfileList() {
@@ -28,20 +28,20 @@ function ProfileList() {
   // console.log(filteredRockets);
 
   return (
-    <section>
-      <div>
+    <section className="profile-container">
+      <div className="itemListContainer">
         <h2>My Missions</h2>
-        <ul>
+        <ul className="ulContainer">
           {filteredMissions.map((item) => (
-            <li key={item.mission_id}>{item.mission_name}</li>
+            <li className="itemList" key={item.mission_id}>{item.mission_name}</li>
           ))}
         </ul>
       </div>
       {/* <div>
         <h2>My Rockets</h2>
-        <ul>
+        <ul className="ulContainer">
           {filteredRockets.map((item) => (
-            <li key={item.rocket_id}>{item.rocket_name}</li>
+            <li className="itemList" key={item.rocket_id}>{item.rocket_name}</li>
           ))}
         </ul>
       </div> */}
