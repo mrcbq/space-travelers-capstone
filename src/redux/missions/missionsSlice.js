@@ -40,4 +40,10 @@ const missionsSlice = createSlice({
   },
 });
 
+missionsSlice.reducer((state) => {
+  state.missions.forEach((mission) => {
+    mission.isMember = false;
+  });
+});
+
 export default missionsSlice.reducer;
