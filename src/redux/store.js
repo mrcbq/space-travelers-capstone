@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit';
 import missionsReducer from './missions/missionsSlice';
-import rocketsReducer, { fetchRockets } from './Rocket/RocketSlice';
+import rocketsReducer from './Rocket/RocketSlice';
 
 const store = configureStore({
   reducer: {
@@ -8,7 +8,5 @@ const store = configureStore({
     rockets: rocketsReducer,
   },
 });
-
-store.dispatch(fetchRockets());
 
 export default store;
