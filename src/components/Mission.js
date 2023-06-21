@@ -12,27 +12,17 @@ export default function Mission(props) {
     <tr>
       <td>{name}</td>
       <td>{description}</td>
-      <td>{isMember ? <div>Active Member</div> : <div>NOT A MEMBER</div>}</td>
+      <td>{isMember ? <div data-legend="active">Active Member</div> : <div data-legend="inactive">NOT A MEMBER</div>}</td>
       <td>
-        {isMember ? (
-          <button
-            type="button"
-            onClick={() => {
-              dispatch(toggleMember(id));
-            }}
-          >
-            Leave Mission
-          </button>
-        ) : (
-          <button
-            type="button"
-            onClick={() => {
-              dispatch(toggleMember(id));
-            }}
-          >
-            Join Mission
-          </button>
-        )}
+        <button
+          type="button"
+          data-legend={isMember ? 'Leave Mission' : 'Join Mission'}
+          onClick={() => {
+            dispatch(toggleMember(id));
+          }}
+        >
+          {isMember ? 'Leave Mission' : 'Join Mission'}
+        </button>
       </td>
     </tr>
   );
