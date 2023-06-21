@@ -27,9 +27,10 @@ export default function Missions() {
         {missions.map((mission) => (
           <Mission
             key={mission.mission_id}
+            id={mission.mission_id}
             name={mission.mission_name}
             description={mission.description}
-            isMember={false}
+            isMember={mission.isMember ?? false}
           />
         ))}
       </tbody>
