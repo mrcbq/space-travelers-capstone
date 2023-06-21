@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/space-travelers-capstone/static/css/main.6acbae41.css",
-    "main.js": "/space-travelers-capstone/static/js/main.f66b5a22.js",
+    "main.css": "/space-travelers-capstone/static/css/main.f43d2068.css",
+    "main.js": "/space-travelers-capstone/static/js/main.b510777f.js",
     "static/media/logo.png": "/space-travelers-capstone/static/media/logo.c1cd168acba305496d99.png",
     "index.html": "/space-travelers-capstone/index.html",
-    "main.6acbae41.css.map": "/space-travelers-capstone/static/css/main.6acbae41.css.map",
-    "main.f66b5a22.js.map": "/space-travelers-capstone/static/js/main.f66b5a22.js.map"
+    "main.f43d2068.css.map": "/space-travelers-capstone/static/css/main.f43d2068.css.map",
+    "main.b510777f.js.map": "/space-travelers-capstone/static/js/main.b510777f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6acbae41.css",
-    "static/js/main.f66b5a22.js"
+    "static/css/main.f43d2068.css",
+    "static/js/main.b510777f.js"
   ]
 }
