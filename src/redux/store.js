@@ -1,13 +1,17 @@
 import { configureStore } from '@reduxjs/toolkit';
-import fetchRockets from './Rocket/RocketSlice';
+import missionsReducer from './missions/missionsSlice';
+import rocketsReducer from './rockets/rocketsSlice';
+
+// import fetchRockets from './Rocket/RocketSlice';
 
 const store = configureStore({
   reducer: {
-    // Add reducers here if you have any but I don't have
+    missions: missionsReducer,
+    rockets: rocketsReducer,
   },
 });
 
 // Fetch rockets when the application starts
-store.dispatch(fetchRockets);
+// store.dispatch(fetchRockets);
 
 export default store;
