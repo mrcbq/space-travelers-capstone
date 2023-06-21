@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit';
 import missionsReducer from './missions/missionsSlice';
 import rocketsReducer from './rockets/rocketsSlice';
 
-import fetchRockets from './Rocket/RocketSlice';
+// import fetchRockets from './Rocket/RocketSlice';
 
 const store = configureStore({
   reducer: {
@@ -12,6 +12,6 @@ const store = configureStore({
 });
 
 // Fetch rockets when the application starts
-store.dispatch(fetchRockets);
+// store.dispatch(fetchRockets);
 
 export default store;
