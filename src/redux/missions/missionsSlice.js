@@ -24,7 +24,15 @@ const initialState = {
 const missionsSlice = createSlice({
   name: 'missions',
   initialState,
-  reducers: {},
+  reducers: {
+    toggleMember: (state, action) => {
+      const missionId = action.payload;
+      const mission = state.missions.find(
+        (mission) => mission.mission_id === missionId,
+      );
+      mission.isMember = !mission?.isMember ?? false;
+    },
+  },
   extraReducers: (builder) => {
     builder.addCase(getMissions.pending, (state) => {
       state.status = 'pending';
@@ -40,4 +48,5 @@ const missionsSlice = createSlice({
   },
 });
 
+export const { toggleMember } = missionsSlice.actions;
 export default missionsSlice.reducer;
