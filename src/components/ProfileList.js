@@ -25,8 +25,6 @@ function ProfileList() {
     (rocket) => rocket.reserved === true,
   );
 
-  console.log(filteredRockets);
-
   return (
     <section className="profile-container">
       <div className="itemListContainer">

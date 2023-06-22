@@ -4,8 +4,6 @@ import { Provider } from 'react-redux';
 import Missions from './Missions';
 import '@testing-library/jest-dom';
 
-import Mission from './Mission';
-
 const mockStore = configureStore([]);
 describe('Missions', () => {
   let store;
