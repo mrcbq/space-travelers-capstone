@@ -1,0 +1,54 @@
+.rockets {
+  margin: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.rocketContainer {
+  display: flex;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  gap: 4rem;
+}
+
+.rocketImage {
+  width: 240px;
+}
+
+.Info {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+}
+
+.cancelbtn {
+  background-color: white;
+  color: gray;
+  padding: 0.5rem;
+  border-radius: 7px;
+  border: gray 1px solid;
+}
+
+.reservebtn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.reserved {
+  background-color: #2fabbf;
+  color: white;
+  border-radius: 40px;
+  margin: 4px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: small;
+}
