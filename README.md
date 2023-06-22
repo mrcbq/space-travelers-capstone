@@ -75,7 +75,7 @@ The space-travelers-capstone is an Web application for a company that provides c
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-> Live demo of this project [here](https://mrcbq.github.io/space-travelers-capstone/)
+> 🚀 Live demo of this project [here](https://mrcbq.github.io/space-travelers-capstone/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
