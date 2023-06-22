@@ -1,4 +1,4 @@
-<h1>space-travelers-capstone - Microverse</h1>
+<h1>Space Travelers - Microverse</h1>
 
 <a name="readme-top"></a>
 
@@ -64,7 +64,7 @@ The space-travelers-capstone is an Web application for a company that provides c
 
 ### Key Features <a name="key-features"></a>
 
-- **space-travelers-capstone  using React**
+- **Space Travelers Capstone using React**
 - **Client-side routing using React Router V6**
 - **Gitflow is used correctly**
 - **Work is documented in a professional manner**
@@ -74,7 +74,9 @@ The space-travelers-capstone is an Web application for a company that provides c
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+```sh
 > You can see the live demo of this project [here](https://mrcbq.github.io/space-travelers-capstone/)
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -150,7 +152,6 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Add Stylint 😁**
 - **Add More sections 👌**
 - **Add More Functionalities 😎**
 
